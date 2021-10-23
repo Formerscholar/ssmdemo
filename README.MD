@@ -66,7 +66,7 @@
 
 ### 添加配置tomcat
 
-![配置tomcat](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164855097.png)
+![配置tomcat](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164855220.png)
 
 ### 添加刚才生成的包
 
