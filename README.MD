@@ -2,85 +2,87 @@
 
 ### 1. file -> new -> project
 
-![新建项目](E:\Javacode\demo\ssmdemo\img\1368523-20190703192138254-245636298.png)
+![新建项目](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164847670.png)
 
 ### 2. 新建maven项目，如图勾选 create from archetype，并选择 maven-archetype-webapp，next
 
-![新建maven配置](E:\Javacode\demo\ssmdemo\img\1368523-20190703192647482-1094133929.png)
-
+![新建maven配置](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164848106.png)
 ### 3. 输入坐标及项目名，next
 
-![输入坐标项目名](E:\Javacode\demo\ssmdemo\img\1368523-20190703192753584-1652732559.png)
+![输入坐标项目名](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164850864.png)
 
 ### 4. 选择maven配置，选择你自己的maven，next
 
-![设置本地maven](E:\Javacode\demo\ssmdemo\img\1368523-20190703192833400-329554346.png)
+![设置本地maven](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164850998.png)
 
 ### 5. 确定项目名，finish
 
-![确定项目名](E:\Javacode\demo\ssmdemo\img\1368523-20190703193030262-1962970432.png)
+![确定项目名](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164851623.png)
 
 # 完善项目结构
 
 ### 1. 新建java目录 src/main/java
 
-![新建java目录](E:\Javacode\demo\ssmdemo\img\1368523-20190703193732576-335160008.png)
-![新建java目录](E:\Javacode\demo\ssmdemo\img\1368523-20190703193931490-376997241.png)
+![新建java目录](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164851994.png)
+![新建java目录](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164852358.png)
 
 ### 2. 新建资源目录 resources
 
-![新建资源目录](E:\Javacode\demo\ssmdemo\img\1368523-20190703194151514-1775347481.png)
+![新建资源目录](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164852492.png)
 
 # 初步配置启动tomcat服务
 
 ### 1. 导入项目包 test2:war exploded　　file -> Project Structure -> Models
 
-![配置tomcat](E:\Javacode\demo\ssmdemo\img\1368523-20190703221130097-1970250801.png)
+![配置tomcat](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164853270.png)
 
 ### 选择你的项目，点击右下角 open
 
-![选择项目](E:\Javacode\demo\ssmdemo\img\1368523-20190703221224055-1883916299.png)
+![选择项目](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164853419.png)
 
 ### 选择maven，一路next下去，最后点击神圣的finish按钮，OK。（可能无此步骤，没有则忽略）
 
-![选择maven](E:\Javacode\demo\ssmdemo\img\1368523-20190703221421607-363401494.png)
+![选择maven](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164853521.png)
 
 ### 2. 还是刚才的界面，选择 Artifacts 此时第一次是会默认有两个包，如果没有则进行此步操作　file -> Project Structure -> Artifacts
 
-![Artifacts](E:\Javacode\demo\ssmdemo\img\1368523-20190703221705304-1342895354.png)
+![Artifacts](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164853692.png)
 
 ### 选择，点击右下 OK按钮
 
-![OK](E:\Javacode\demo\ssmdemo\img\1368523-20190703221947050-1781543961.png)
+![OK](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164854301.png)
 
 ### 最终想要得到的结果如下图：
 
-![最终结果](E:\Javacode\demo\ssmdemo\img\1368523-20190703222107253-145678370.png)
+![最终结果](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164854396.png)
 
 ### 3. 进行了上述每一步操作后，很关键的要保存，点击apply 或者ok，apply按钮是不可点击状态才能关闭此面板哦，不然刚才所有操作都白费了
 
-![保存](E:\Javacode\demo\ssmdemo\img\1368523-20190703222345903-1990998397.png)
+![保存](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164855004.png)
 
 ### 4. 添加tomcat，进行相关配置 点击面板右上角
 
-![添加tomcat](E:\Javacode\demo\ssmdemo\img\1368523-20190703222516282-250994066.png)
+![添加tomcat](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164855097.png)
 
 ### 添加配置tomcat
 
-![配置tomcat](E:\Javacode\demo\ssmdemo\img\1368523-20190703222935919-1909977044.png)
+![配置tomcat](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164855097.png)
 
 ### 添加刚才生成的包
 
-![添加包](E:\Javacode\demo\ssmdemo\img\1368523-20190703223118073-1390000925.png)
+![添加包](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164858212.png)
 
 ### 最后点击，apply，ok，好了完事了，准备运行吧
-![](E:\Javacode\demo\ssmdemo\img\1368523-20190703223422955-581598555.png)
+
+![最后点击](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164858839.png)
 
 ### 5. 运行tomcat 右上角面板选择debug模式运行（也可以普通模式）
-![](E:\Javacode\demo\ssmdemo\img\1368523-20190703230352595-759382465.png)
+
+![运行tomcat](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164859793.png)
 
 ### 运行成功，页面显示默认生成的index.jsp的内容　　http://localhost:8085/
-![](E:\Javacode\demo\ssmdemo\img\1368523-20190703230434751-85724231.png)
+
+![运行成功](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164859881.png)
 
 # 配置spring容器等相关配置文件
 
@@ -258,7 +260,8 @@
 ### 如果想要自己添加jar包，可以在WEB-INF中新建lib文件夹，然后放入你的jar包（poom依赖下载的jar包编译过后其实也就是在编译包下的lib文件夹中）
 
 ### 2. 配置web.xml文件（位置：webapp下的WEB-INF中）　　tomcat启动时，会加载此文件，从而扫描加载其他的配置文件
-![](E:\Javacode\demo\ssmdemo\img\1368523-20190704104633476-1096415821.png)
+
+![配置web.xml文件](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164859979.png)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://java.sun.com/xml/ns/javaee"
@@ -333,7 +336,8 @@
 ### 其中包括了编码过滤、监听器、springmvc配置、spring容器中其他配置包括mybatis等、log4j配置、项目访问默认欢迎页，如需添加自定义过滤器，也许在此配置
 
 ### 3. 新建其他配置文件（位置：resoures下） applicationContext.xml、springmvc.xml、mybatis.xml、jdbc.properties、日志配置（log4j.properties和log4j.xml二选一，我用的log4j.xml）
-![](E:\Javacode\demo\ssmdemo\img\1368523-20190704112104561-541905577.png)
+
+![新建其他配置文件](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164900079.png)
 
 ### spring-mvc.xml
 ```xml
@@ -662,12 +666,15 @@ jdbc.testOnReturn=false
 
 # 编写代码测试
 ### 1. java文件夹下，新建package包com.test，另外再新建包括controller、mapper、model、service的四个包
-![](E:\Javacode\demo\ssmdemo\img\1368523-20190704115455286-2076407415.png)
+
+![新建包](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164900437.png)
 ### 新建完结构如图所示
-![](E:\Javacode\demo\ssmdemo\img\1368523-20190704115556315-798677302.png)
+
+![新建完结构](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164901315.png)
 
 ### 2. 在每个包下分别新建代码文件：TestController.java、TpmTestLogService.java、TpmTestLogServiceImpl.java、TpmTestLogMapper.java、TpmTestLogMapper.xml、TpmTestLog
-![](E:\Javacode\demo\ssmdemo\img\1368523-20190704120117376-1290825420.png)
+
+![新建代码文件](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164901435.png)
 
 ### 实体类：TpmTestLog.java
 ```java
@@ -870,11 +877,13 @@ SET FOREIGN_KEY_CHECKS = 1;
 ```
 
 ###4. 测试接口  因为是写的测试是get请求，所以可以直接在浏览器中测试，地址栏输入接口地址（4.4中你配置的地址），回车访问，如下图
-![](E:\Javacode\demo\ssmdemo\img\1368523-20190704141512081-2022123561.png)
+
+![测试接口](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164902017.png)
 
 #前端页面和接口交互测试
 ###1. 编写前端页面测试代码（不要说你是后台，不会写前端代码，不会也没关系，直接copy吧，有问题找google）
-![](E:\Javacode\demo\ssmdemo\img\1368523-20190704142224986-1048495401.png)
+
+![编写前端页面测试代码](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164902108.png)
 
 ###前边生成的index.jsp我们稍加改动
 ```html
@@ -900,7 +909,8 @@ SET FOREIGN_KEY_CHECKS = 1;
 ### 由于页面中引用了万能的jquery语法，所以在webapp下新建js文件夹，并放入jquery文件，[点击下载](https://blog-static.cnblogs.com/files/mufengforward/jquery.min.js)
 
 ### 2. 接下来见证奇迹，打开页面地址：http://localhost:8085/index.jsp
-![](E:\Javacode\demo\ssmdemo\img\1368523-20190704144309301-1488323092.png)
+
+![见证奇迹](https://chad-blog.oss-cn-shanghai.aliyuncs.com/oneblog/20211023164902458.png)
 
 ### 后台经过与数据库交互后，把插入数据库后生成的主键4返回给前端，前端显示在页面中
 
