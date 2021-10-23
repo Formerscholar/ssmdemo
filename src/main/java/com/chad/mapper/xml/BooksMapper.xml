@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chad.mapper.BooksMapper">
+    <resultMap type="com.chad.model.Books" id="mTpmTestLog" autoMapping="true">
+    </resultMap>
+
+
+    <insert id="insert" parameterType="com.chad.model.Books" useGeneratedKeys="true" keyProperty="bookId">
+        INSERT INTO books (bookID, bookName, bookCounts, detail)
+        VALUES (#{bookId},
+                #{bookName},
+                #{bookCounts},
+                #{detail})
+    </insert>
+</mapper>
